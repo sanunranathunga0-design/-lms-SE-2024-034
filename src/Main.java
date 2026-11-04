@@ -24,7 +24,7 @@ public class Main {
         try {
             Book invalidBook = new Book("B003", "", "Unknown Author");
         } catch (IllegalArgumentException e) {
-            System.out.println("Rejected invalid book: " + e.getMessage());
+            System.out.println("Rejected invalid book : " + e.getMessage());
         }
     }
 }
